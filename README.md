@@ -2,6 +2,11 @@
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
+This project is about Covid-19 around the world, it's connect with api : https://api.covid19api.com/summary
+you can download and test this project or change it for better webapp, Do what you want.
+Good Luck !
+
+
 ## Available Scripts
 
 In the project directory, you can run:
