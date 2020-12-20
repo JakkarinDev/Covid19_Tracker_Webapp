@@ -1,0 +1,81 @@
+.countries-stats {
+    height: auto;
+    width: 100%;
+}
+
+h2 {
+    font-weight: 700 !important;
+    margin-top: 80px;
+    text-align: center;
+    font-size: 2rem;
+}
+
+.Filtering {
+    height: 60px;
+    width: 70%;
+    margin: auto;
+    margin-top: 40px;
+}
+
+.Filtering input {
+    height: 100%;
+    width: 97.5%;
+    padding-left: 25px;
+}
+
+/* .Filtering input {
+    height: 100%;
+    width: 70%;
+    padding-left: 25px;
+}
+
+.Filtering .sort-by {
+    height: 100%;
+    width: calc(100% - 75%);
+    margin-left: 25px;
+    padding: 0 20px;
+} */
+
+.Sort {
+    height: 60px;
+    width: 70%;
+    margin: auto;
+    margin-top: 40px;
+}
+
+.Sort .sort-by {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+  }
+
+.grid-container {
+    display: grid;
+    grid-gap: 50px;
+    grid-template-columns: auto auto auto;
+}
+
+.grid-item { 
+    margin: 0;
+}
+
+.grid-item label {
+    display: block;
+}
+
+
+
+@media screen and (max-width: 1090px) {
+    .grid-container {
+        grid-gap: 0px;
+    }
+
+    .slider-container {
+        overflow-x: scroll;
+        height: 300px;
+      }
+      
+    .slider-container .slider {
+        width: 1300px;
+    }
+}
